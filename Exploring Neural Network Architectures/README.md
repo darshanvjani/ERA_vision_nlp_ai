@@ -1,11 +1,11 @@
 
 # Exploring Neural Architectures Assignment 
 
-![alt text](image)
+![Assignment](https://raw.githubusercontent.com/darshanvjani/ERA_vision_nlp_ai/main/Exploring%20Neural%20Network%20Architectures/Images/assignment.png)
 
 ## My Solution
 
-![alt text](image)
+![Receptive Field Table](https://raw.githubusercontent.com/darshanvjani/ERA_vision_nlp_ai/main/Exploring%20Neural%20Network%20Architectures/Images/Rf.png)
 
 Furthermore, all the lines of the code has been commented to better understand the structure and the implementation of eachline in the notebook.
 
