@@ -2,11 +2,11 @@
 # Session 4 - Building the First Neural Network Assignment
 
 ![Instruction for Assignment](https://raw.githubusercontent.com/darshanvjani/ERA_vision_nlp_ai/main/Building%20the%20First%20Neural%20Network/Images/assignment.PNG)
-Task is to take the [Faulty Colab Notebook](#https://colab.research.google.com/github/darshanvjani/ERA_vision_nlp_ai/blob/main/Building%20the%20First%20Neural%20Network/Faulty_Notebook.ipynb) and rewrite it such that all the Errors (Syntexually and Understanding wise) are resolved.
+Task is to take the [Faulty Colab Notebook] (https://colab.research.google.com/github/darshanvjani/ERA_vision_nlp_ai/blob/main/Building%20the%20First%20Neural%20Network/Faulty_Notebook.ipynb) and rewrite it such that all the Errors (Syntexually and Understanding wise) are resolved.
 
 ## My Solution
 
-[Corrected Notebook](#https://colab.research.google.com/github/darshanvjani/ERA_vision_nlp_ai/blob/main/Building%20the%20First%20Neural%20Network/Corrected_Notebook.ipynb)
+[Corrected Notebook] (https://colab.research.google.com/github/darshanvjani/ERA_vision_nlp_ai/blob/main/Building%20the%20First%20Neural%20Network/Corrected_Notebook.ipynb)
 
 ## Issues Encountered and Resolution
 - Code Block 3 > Different Normalization value between train and test || Made the Normalization values same for both train and test
