@@ -67,6 +67,12 @@ Model Architecture (LayerNorm)
 ![loss](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Batch%20Normalization%20and%20Regularization/Images/loss.png?raw=true)
 
 
+#### Incorrect Prediction Images
+
+![incorrect_pred](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Batch%20Normalization%20and%20Regularization/Images/incorrect%20prediction.png?raw=true)
+
+
+
 ## Things Used for Building the Architecture
 - Convolution Blocks (3x3)
 - Relu
