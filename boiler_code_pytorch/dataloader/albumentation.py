@@ -1,7 +1,7 @@
 import albumentations as A
 from albumentations.pytorch.transforms import ToTensorV2
 import numpy as np
-from Wrapper_EVAI_Pytorch.utils import helper
+from boiler_code_pytorch.utils import helper
 import torchvision.transforms as transforms
 
 class CIFAR10Albumentation:
