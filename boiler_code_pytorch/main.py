@@ -10,15 +10,15 @@ import torch.optim as optim
 from torchvision import datasets , transforms 
 import torchvision
 
-from Wrapper_EVAI_Pytorch.dataloader import albumentation as A 
+from boiler_code_pytorch.dataloader import albumentation as A 
 
-from Wrapper_EVAI_Pytorch.utils.helper import *
-from Wrapper_EVAI_Pytorch.utils.gradcam import *
-from Wrapper_EVAI_Pytorch.utils.plot_metrics import *
-from Wrapper_EVAI_Pytorch.utils.test import *
-from Wrapper_EVAI_Pytorch.utils.train import *
+from boiler_code_pytorch.utils.helper import *
+from boiler_code_pytorch.utils.gradcam import *
+from boiler_code_pytorch.utils.plot_metrics import *
+from boiler_code_pytorch.utils.test import *
+from boiler_code_pytorch.utils.train import *
 
-from Wrapper_EVAI_Pytorch.models import resnet
+from boiler_code_pytorch.models import resnet
 
 
 class main():
