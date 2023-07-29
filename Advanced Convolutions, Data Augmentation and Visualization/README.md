@@ -7,10 +7,10 @@
 ## My Solution
 
 Model With Strided Convolution in the Transition Block :  
-[Model 1](#https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Advanced%20Convolutions%2C%20Data%20Augmentation%20and%20Visualization/Session_9_using_model.ipynb)
+[Model 1](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Advanced%20Convolutions%2C%20Data%20Augmentation%20and%20Visualization/Session_9_using_model.ipynb)
 
 Model With Strided - Dilated Convolution in the Transition Block:  
-[Model 2](#https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Advanced%20Convolutions%2C%20Data%20Augmentation%20and%20Visualization/Session_9.ipynb)
+[Model 2](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Advanced%20Convolutions%2C%20Data%20Augmentation%20and%20Visualization/Session_9.ipynb)
 
 #### Model Architecture
 
