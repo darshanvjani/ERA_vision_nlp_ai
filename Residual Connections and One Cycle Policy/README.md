@@ -4,16 +4,16 @@
 ![Instruction for Assignment](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Advanced%20Convolutions,%20Data%20Augmentation%20and%20Visualization/Images/assignment.png?raw=true)
 
 
-The Assignment is inspired by the [Stanford DAWNBench Competition](#https://dawn.cs.stanford.edu/benchmark/) which strive for achiving more then 93% test accuracy on CIFAR10 under as less of computation Cost as possible.
+The Assignment is inspired by the [Stanford DAWNBench Competition](https://dawn.cs.stanford.edu/benchmark/) which strive for achiving more then 93% test accuracy on CIFAR10 under as less of computation Cost as possible.
 
-I am recreating [@davidcpage](#https://github.com/davidcpage) custom resnet model which use A compination of Learning Stratigies like OneCyclePolicy for convergence as quickly as possible to a **relatively stable local minima**.
+I am recreating [@davidcpage](https://github.com/davidcpage) custom resnet model which use A compination of Learning Stratigies like OneCyclePolicy for convergence as quickly as possible to a **relatively stable local minima**.
 
 
 
 ## My Solution
 
 My Implementation of Davidcpage Custom Resnet Model Implementation (Stanford DAWN Benchmark Rank 1 Model)
-[Model](#https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Residual%20Connections%20and%20One%20Cycle%20Policy/Session_10.ipynb)
+[Model](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/Residual%20Connections%20and%20One%20Cycle%20Policy/Session_10.ipynb)
 
 #### Model Architecture
 
