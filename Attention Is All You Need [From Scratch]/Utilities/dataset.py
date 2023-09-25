@@ -114,7 +114,7 @@ class BilingualDataModule(pl.LightningDataModule):
         load_dataset("opus_books", f'{self.config["lang_src"]}-{self.config["lang_tgt"]}', split="train")
 
     def setup(self, stage=None):
-        self.ds_raw = load_dataset("opus_books", f'{self.config["src_lang"]}-{self.config["tgt_lang"]}', split="train")
+        self.ds_raw = load_dataset("opus_books", f'{self.config["lang_src"]}-{self.config["lang_tgt"]}', split="train")
 
         # Build the tokenizer
         self.tokenizer_src = get_or_build_tokenizer(
@@ -175,3 +175,19 @@ class BilingualDataModule(pl.LightningDataModule):
 
         print("Max length of source sentences:", max_len_src)
         print("Max length of target sentences:", max_len_tgt)
+
+    def train_dataloader(self):
+        return torch.utils.data.DataLoader(
+            self.train_ds,
+            batch_size=self.config["batch_size"],
+            shuffle=True,
+            num_workers=self.num_workers,
+        )
+
+    def val_dataloader(self):
+        return torch.utils.data.DataLoader(
+            self.val_ds,
+            batch_size=1,
+            shuffle=False,
+            num_workers=self.num_workers,
+        )
