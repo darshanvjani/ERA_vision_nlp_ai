@@ -86,12 +86,12 @@ class PositionalEncoding(LightningModule):
         return self.dropout(x)
       
 class ResidualConnection(LightningModule):
-    def __init__(self, d_model: int, dropout: float) -> None:
+    def __init__(self, dropout: float) -> None:
         super().__init__()
         self.norm = LayerNormalization()
         self.dropout = nn.Dropout(dropout)
 
-    def forward(self, x: torch.Tensor, sublayer: nn.Module) -> torch.Tensor:
+    def forward(self, x: torch.Tensor, sublayer: LightningModule) -> torch.Tensor:
         # (batch_size, seq_len, d_model)
         return x + self.dropout(sublayer(self.norm(x)))
     
