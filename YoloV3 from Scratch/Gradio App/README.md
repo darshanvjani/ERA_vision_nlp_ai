@@ -2,7 +2,7 @@
 
 Unveiling the intricacies of YOLOv3 through PyTorch Lightning ⚡️🕵️‍♂️. In the rapidly evolving landscape of machine learning, expertise in building sophisticated models from scratch is invaluable. This project presents the YOLOv3 Object Detection System crafted meticulously using the cutting-edge PyTorch Lightning framework.
 
-![YOLOv3 Demo Image](demo_image.png)
+![YOLOv3 Demo Image](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Gradio%20App/Images/achitecture.png)
 
 ## 🎉 Key Highlights:
 1. **Deep Dive into YOLOv3**: Ground-up development of the YOLOv3 model, showcasing proficiency in intricate model architectures and in-depth understanding of computer vision principles.
