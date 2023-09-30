@@ -2,7 +2,7 @@
 
 This repository contains the code for replicating the original "Attention is All You Need" paper by Vaswani et al., for the task of text translation from English to Italian. The code is structured to closely follow the architecture and training process outlined in the paper, employing the Transformer model to achieve state-of-the-art performance on the translation task.
 
-![Transformer Model Image](transformer_image.png)
+![Transformer Model Image](https://github.com/darshanvjani/ERA_vision_nlp_ai/assets/35656144/7c2f9a1e-1cad-4461-a182-e6943a35a484)
 
 ## 📄 Original Paper
 
@@ -36,8 +36,7 @@ TARGET: L'attenzione è la chiave per sbloccare il pieno potenziale di una rete 
 Final Train Loss: 1.872 after training it for 30 epochs.
 
 ## Training Logs
-```
---------------------------------------------------------------------------------
+```--------------------------------------------------------------------------------
 SOURCE: And yet at that very point of her recollections when she remembered Vronsky, the feeling of shame grew stronger and some inner voice seemed to say to her, 'warm, very warm, burning!' 'Well, what of it?' she finally said to herself with decision, changing her position on the seat.
 TARGET: Ma intanto proprio a questo punto il senso di vergogna diveniva più forte, come se una certa voce interiore, proprio lì, nel punto in cui si ricordava di Vronskij, le dicesse: «Caldo, caldo, scottante».
 PREDICTED: E pure in questo punto , nel ricordo dei ricordi in cui ella ricordò di lei , il sentimento di vergogna di vergogna e di voce , di lui , le sembrava avere addosso , di nuovo una mano . — E di nuovo , cosa ? — disse , alla stessa cosa in cui era scritto tutto . — E cambiò una domanda ? — E cambiò posizione ?
