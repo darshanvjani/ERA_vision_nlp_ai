@@ -13,6 +13,7 @@
 - A balanced curriculum that sails through vision and NLP topics, as well as machine learning operations.
 - A practical approach where students develop applications and deploy them on the cloud in nearly every session.
 - A systematic learning process where every session begins with solving the previous week's assignment and quiz.
+- Takes you from basics to SOTA in **9 months**
 - And much more!
 
 ## Comprehensive Syllabus
