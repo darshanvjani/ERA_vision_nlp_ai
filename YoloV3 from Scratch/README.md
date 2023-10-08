@@ -12,14 +12,12 @@ the job is to replicate the original YoloV3 paper whil implementing 4 image mosa
 ## YoloV3 Model Architecture
 Architecture has been replicated form the original [YoloV3](https://arxiv.org/pdf/1804.02767.pdf) paper.
 
-![Architecture]()
-
+![Architecture](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/architecture.png?raw=true)
 
 ## Lr Finder 
-
 We have used the suggest Lr of 0.0031622 using the lr Finder
 
-![LR_finder]()
+![LR_finder](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/lr_finder.png?raw=true)
 
 ## Training
 
@@ -37,7 +35,7 @@ Class accuracy is: 41.016903%
 No obj accuracy is: 97.683266%
 Obj accuracy is: 31.571072%
 ```
-![log1]()
+![log1](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log1.png?raw=true)
 
 ```
 Epoch: 3, Loss: 6.867676734924316
@@ -56,7 +54,7 @@ Class accuracy is: 53.837627%
 No obj accuracy is: 96.736259%
 Obj accuracy is: 47.531174%
 ```
-![log2]()
+![log2](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log2.png?raw=true)
 
 ```
 Epoch: 9, Loss: 5.698788166046143
@@ -70,7 +68,7 @@ Epoch: 11, Loss: 5.4896039962768555
 Epoch: 12, Loss: 5.371456146240234
 Epoch: 13, Loss: 5.247055530548096
 ```
-![log3]()
+![log3](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log3.png?raw=true)
 
 ```
 Epoch: 14, Loss: 5.145310878753662
@@ -88,7 +86,7 @@ Class accuracy is: 68.295929%
 No obj accuracy is: 97.073303%
 Obj accuracy is: 59.390415%
 ```
-![log4]()
+![log4](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log4.png?raw=true)
 ```
 Epoch: 15, Loss: 5.004179000854492
 Epoch: 16, Loss: 4.854735851287842
@@ -121,7 +119,7 @@ Epoch: 27, Loss: 3.7256128787994385
 Epoch: 28, Loss: 3.6390113830566406
 
 ```
-![log5]()
+![log5](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log5.png?raw=true)
 
 ```
 Epoch: 29, Loss: 3.52851939201355
@@ -140,7 +138,7 @@ Epoch: 32, Loss: 3.290649652481079
 Epoch: 33, Loss: 3.2031702995300293
 
 ```
-![log6]()
+![log6](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log6.png?raw=true)
 
 ```
 Epoch: 34, Loss: 3.1084444522857666
@@ -155,7 +153,7 @@ Epoch: 37, Loss: 2.8547286987304688
 Epoch: 38, Loss: 2.7558252811431885
 
 ```
-![log7]()
+![log7](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log7.png?raw=true)
 
 ```
 Class accuracy is: 81.400658%
@@ -171,11 +169,11 @@ Epoch: 39, Loss: 2.718630075454712
 ```
 
 **MAP:  0.33122602105140686**
-
+![Final Results](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/log8.png?raw=true)
 ## Loss Function
 [loss.py](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/CAMs,%20LRs,%20and%20Optimizers/Images/resnet_arc.png?raw=true)
 
-![loss.py](loss_function)
+![loss.py](https://github.com/darshanvjani/ERA_vision_nlp_ai/blob/main/YoloV3%20from%20Scratch/Images/loss_function.png?raw=true)
 
 ## Things Used for Building the Architecture
 - Replicated YoloV3 PAPER
